@@ -19,7 +19,7 @@ const LoginPage = () => {
 
   if (session?.user) {
     router.push("/Mainapp");
-  } else
+  } else {
     return (
       <div className="flex flex-col justify-center h-[90vh] items-center">
         <div className=" p-8 rounded-lg shadow-lg flex flex-col w-[50%] h-[400px] justify-center items-center gap-8 border-2">
@@ -32,6 +32,7 @@ const LoginPage = () => {
         </div>
       </div>
     );
+  }
 };
 
 export default LoginPage;
