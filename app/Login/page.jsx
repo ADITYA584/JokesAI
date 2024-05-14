@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
   const { data: session } = useSession({
-    required: true,
+    // required: true,
     // onAuthenticated() {
     //   redirect("/api/auth/signin?callback=/Mainapp");
     // },
